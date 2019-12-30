@@ -1,4 +1,4 @@
-module.exports = function cssLoader(options) {
+module.exports = function cssLoader(options = {}) {
   return {
     loader: "css-loader",
     options

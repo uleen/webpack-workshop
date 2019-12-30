@@ -3,7 +3,6 @@ import * as ReactDOM from "react-dom";
 import App from "./App";
 import "./styles.css";
 
-ReactDOM.render(
-  <App name="CARS is awesome" />,
-  document.getElementById("app") as HTMLElement
-);
+ReactDOM.render(<App name="CARS" />, document.getElementById(
+  "app"
+) as HTMLElement);

@@ -6,7 +6,7 @@ interface IProps {
 }
 
 const App: React.SFC<IProps> = ({ name }) => {
-  return <h1>{name}</h1>;
+  return <h1>{name} beginning!!!</h1>;
 };
 
 export default hot(App);
