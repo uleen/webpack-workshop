@@ -16,7 +16,7 @@ const PATHS = {
 
 module.exports = mode => {
   if (mode === "production") {
-    return merge(basePreset(), productionPreset(), { mode });
+    return merge(basePreset({ path: PATHS }), productionPreset(), { mode });
   }
   return merge(basePreset(), developmentPreset(), { mode });
 };
